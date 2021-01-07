@@ -18,4 +18,4 @@ else:
 		camera.stop_preview()
 		sleep(5)
 
-	print(subprocess.call("./test.sh"))
+	print(subprocess.call("sh test.sh"))
